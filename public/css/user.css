@@ -1,0 +1,9 @@
+/* USED FOR MAKING TABLE BUTTON  */
+
+
+/* list user.php */
+
+table tr th,
+table tr td {
+    padding: 10px!important;
+}

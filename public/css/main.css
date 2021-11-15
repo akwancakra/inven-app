@@ -1,0 +1,101 @@
+.tree-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tree-card .card {
+    position: relative;
+    padding: 20px;
+    margin: 5px;
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.tree-card .card p.content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    font-size: 110px;
+    font-weight: bold;
+}
+
+.tree-card .card p.title {
+    box-shadow: 2px 2px 8px #484848;
+    background: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+    width: fit-content;
+    color: #1d1b31;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.tree-card-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tree-card-box .card-box {
+    position: relative;
+    padding: 20px;
+    margin: 5px;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+/* MAKING BOX ON USER MENU */
+
+.boxed {
+    text-align: center;
+}
+
+.boxed .menu {
+    width: 100%;
+    margin: 10px auto;
+}
+
+.boxed .card-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxed .card-box a i {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 150px;
+}
+
+.boxed .card-box a p.content {
+    color: #fff;
+    position: relative;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.title-main p {
+    font-size: 20px;
+}
+
+.title-main h1 {
+    font-size: 36px;
+}
